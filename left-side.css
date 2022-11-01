@@ -1,0 +1,64 @@
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 30px;
+
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.left-top-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3px;
+}
+
+.left-side img {
+    width: 27px;
+    height: 27px;
+    flex: 27px;
+}
+
+.left-side button {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+
+    height: 50px;
+    padding: 9px 9px 12px 12px;
+
+    border-radius: 27px;
+    border: none;
+
+    display: flex;
+    column-gap: 12px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.left-top-side button:hover {
+    background-color: rgb(187, 183, 183);
+}
+
+.tweet {
+    display: flex;
+}
+
+p {
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left:0;
+}
+
+.left-bottom-side button:hover {
+    background-color: rgb(187, 183, 183);;
+}
